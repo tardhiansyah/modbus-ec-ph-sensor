@@ -18,6 +18,7 @@ PH_Temperature sensor2(Serial2);
 void setup()
 {
     Serial.begin(115200);
+    Serial2.begin(9600);
 
     sensor1.begin(0x02, 0x03, 0x00, 0x02);
     sensor2.begin(0x01, 0x03, 0x00, 0x02);
