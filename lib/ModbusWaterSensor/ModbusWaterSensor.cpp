@@ -18,6 +18,7 @@ void ModbusSensor::begin(byte addressCode, byte functionCode, byte registerAddre
   _readCommand[2] = registerAddress >> 8;    // bit shift to 0x00
   _readCommand[3] = registerAddress;
   _readCommand[4] = numRegister >> 8;        // bit shift to 0x00
+  _readCommand[5] = numRegister;
 }
 
 void ModbusSensor::requestData()
