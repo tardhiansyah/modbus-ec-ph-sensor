@@ -11,9 +11,13 @@
 #include <Arduino.h>
 #include <ModbusWaterSensor.h>
 
+#define RX2_PIN     16
+#define TX2_PIN     17
+#define BAUDRATE_2  9600
+
 // Communicating with sensor with Serial2 (HardwareSerial) of ESP32
-EC_TDS sensor1(Serial2);
-PH_Temperature sensor2(Serial2);
+EC_TDS sensor1(Serial2, RX2_PIN, TX2_PIN, BAUDRATE_2);
+PH_Temperature sensor2(Serial2, RX2_PIN, TX2_PIN, BAUDRATE_2);
 
 void setup()
 {
@@ -37,5 +41,5 @@ void loop()
     Serial.print("pH: ");
     Serial.println(pH);
 
-    delay(1000);
+    delay(500);
 }
