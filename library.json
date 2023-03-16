@@ -1,0 +1,25 @@
+{
+    "name": "Modbus Water Sensor",
+    "version": "0.1.1",
+    "description": "A \"Modbus Water Sensor\" program is a computer program that reads water quality parameters such as pH, TDS / EC, and Temperature from a sensor with ModBus interface",
+    "keywords": "EC, TDS, pH, ModBus Sensor, Water Quality Sensor",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/tardhiansyah/Modbus-Water-Quality-Sensor.git"
+    },
+    "authors":
+    [
+        {
+        "name": "Taufik Ardhiansyah",
+        "email": "tardhians@gmail.com",
+        "url": "https://www.john-smith/contact",
+        "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/tardhiansyah/Modbus-Water-Quality-Sensor",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "examples": "examples/main.cpp"
+}

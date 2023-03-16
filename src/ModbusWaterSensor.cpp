@@ -2,7 +2,7 @@
  * @file ModbusWaterSensor.cpp
  * @author tardhiansyah (tardhians@gmail.com)
  * @brief CPP file of Modbus Water Sensor Library
- * @version 0.1
+ * @version 0.1.1
  * @date 2023-03-14
  * 
  * @copyright Copyright (c) 2023
