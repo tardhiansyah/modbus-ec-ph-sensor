@@ -1,2 +1,2 @@
-# Modbus-Water-Quality-Sensor
-Example for reading a modbus (RS485) water quality sensor with ESP32
+# Modbus EC and pH Sensor
+An Arduino library for a modbus EC and pH sensor
